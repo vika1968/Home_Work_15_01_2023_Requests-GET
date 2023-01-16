@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.js"
+        integrity="sha512-rozBdNtS7jw9BlC76YF1FQGjz17qQ0J/Vu9ZCFIW374sEy4EZRbRcUZa2RU/MZ90X2mnLU56F75VfdToGV0RiA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="searchZone">
+            <form id="handleCatByID">
+                <h3>SHOW CAT BY RANDOM ID.  ( TOTAL - 20 IMAGES. 10 OF THEM ARE UNIQUE )</h3>
+                 <button type="submit" class="btnFindbyID">SHOW CAT BY RANDOM ID</button>
+            </form>
+            <br>
+            <form id="handleCatsOneByOne">
+                <h3>SHOW AN ARRAY OF CATS ONE BY ONE.  ( TOTAL - 20 IMAGES. 10 OF THEM ARE UNIQUE )</h3>
+                  <button type="submit" class="btnhandleCatsOneByOne">SHOW AN ARRAY OF CATS ONE BY ONE</button>
+            </form>
+            <br>
+            <form id="handUniquePhotos">
+                <h3>SHOW 5 UNIQUE PHOTOS</h3>
+                  <button type="submit" class="btnhandleCatsOneByOne">SHOW 5 UNIQUE PHOTOS</button>
+            </form>          
+    </div>
+    <div class="wrapper">
+        <div class="card_list">          
+        </div>
+    </div>
+</body>
+
+<script src="./dist/app.js"></script>
+</html>

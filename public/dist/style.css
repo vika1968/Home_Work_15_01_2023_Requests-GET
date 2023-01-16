@@ -1,0 +1,33 @@
+.submit, .jokebtn, .joke {
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  transition: background 0.25s, color 0.25s;
+}
+
+.submit:hover {
+  color: #ffffff;
+  background: #0F9D58;
+}
+
+.submit {
+  background: #cdedde;
+}
+
+.jokebtn:hover {
+  color: #ffffff;
+  background: #4285F4;
+}
+
+.jokebtn {
+  background: #b4c5df;
+}
+
+.joke:hover {
+  color: #ffffff;
+  background: #DB4437;
+}
+
+.joke {
+  background: #e4b5b1;
+}
